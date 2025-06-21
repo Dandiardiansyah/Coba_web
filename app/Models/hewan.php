@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class hewan extends Model
+class Hewan extends Model
 {
     protected $fillable = ['nama','deskripsi'];
     use HasFactory;
